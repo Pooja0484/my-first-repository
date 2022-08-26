@@ -3,7 +3,7 @@ package com.qa.studentmanagement;
 
 
 import org.assertj.core.api.Assertions;
-import org.h2.tools.Console;
+
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +11,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
 import com.qa.studentmanagement.entity.Course;
-import com.qa.studentmanagement.entity.Student;
+
 import com.qa.studentmanagement.repo.CourseRepo;
-import com.qa.studentmanagement.repo.StudentRepo;
+
 import com.qa.studentmanagement.service.CourseService;
-import com.qa.studentmanagement.service.StudentService;
+
 @SpringBootTest
 public class CourseServiceUnitTest {
 	 @Autowired
