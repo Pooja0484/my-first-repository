@@ -26,8 +26,8 @@ public class CourseServiceUnitTest {
 	    @Test
 	    void testCreate(){
 	        // GIVEN is our testing data - you can make this a final local variable if you want, e.g.:
-	        final Course TEST_Course = new Course(null,"Medical Science", "3 years", 14000F);
-	        final Course TEST_SAVED_Course = new Course(7L,"Medical Science", "3 years", 14000F);
+	        final Course TEST_Course = new Course(null,"Medical Science", "3 years", 14000F, null);
+	        final Course TEST_SAVED_Course = new Course(7L,"Medical Science", "3 years", 14000F, null);
 
 	        // WHEN
 	        Mockito.when(this.repo.save(TEST_Course)).thenReturn(TEST_SAVED_Course);
@@ -37,6 +37,6 @@ public class CourseServiceUnitTest {
 
 	        // verify that our repo was accessed exactly once
 	        Mockito.verify(this.repo, Mockito.times(1)).save(TEST_Course);
-	   System.out.println("Hello");
+	   
 	    }
 }
