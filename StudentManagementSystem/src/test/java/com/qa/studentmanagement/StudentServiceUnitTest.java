@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.qa.studentmanagement.DTO.StudentDTO;
+
 import com.qa.studentmanagement.entity.Student;
 import com.qa.studentmanagement.repo.StudentRepo;
 import com.qa.studentmanagement.service.StudentService;
