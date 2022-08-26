@@ -7,11 +7,11 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import com.qa.studentmanagement.DTO.CourseDTO;
-import com.qa.studentmanagement.DTO.StudentDTO;
+
 import com.qa.studentmanagement.entity.Course;
-import com.qa.studentmanagement.entity.Student;
+
 import com.qa.studentmanagement.exception.CourseNotFoundException;
-import com.qa.studentmanagement.exception.StudentNotFoundException;
+
 import com.qa.studentmanagement.repo.CourseRepo;
 
 @Service
